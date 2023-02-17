@@ -16,24 +16,41 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
 
-  nav {
+.desktop-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-aorund;
+  flex-direction: row;
 
-    a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: 400;
-      font-size: 1.5rem;
-      margin-left: 2rem;
-      margin-left: 2rem;
-      border-bottom: 3px solid transparent;
+  a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    cursor: pointer;
 
-      &:hover {
-        color: #FA7902;
-        border-bottom: 3px solid #FF4747;
-        transition: all .3s ease-in-out;
-
-      }
+    &::after {
+      content: '';
+      display: block;
+      transform: scaleX(0);
+      border-bottom: 3px solid #FF4747;
+      transition: transform 0.3s ease-in-out;
     }
+
+    &:hover {
+      color: #FA7902;
+    }
+
+    &:hover::after {
+      transform: scaleX(1);
+    }
+
+    .fromleft:after {
+      transform-origin: 0% 50%;
+    }
+
   }
 }

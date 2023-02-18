@@ -1,1 +1,1 @@
-body{font-family:'Poppins', sans-serif;background-color:#141D2F;margin:0;color:#FFFFFF;display:flex;align-items:center;flex-direction:column;min-height:100vh;scroll-behavior:smooth}
+body{font-family:'Poppins', sans-serif;background-color:#141D2F;margin:0;color:#FFFFFF;display:flex;align-items:center;flex-direction:column;min-height:100vh;scroll-behavior:smooth}body::-webkit-scrollbar{width:0.5rem}body::-webkit-scrollbar-track{background:transparent}body::-webkit-scrollbar-thumb{background:#fa7a02a7;border-radius:10px}body::-webkit-scrollbar-thumb:hover{background:#fa7a02}

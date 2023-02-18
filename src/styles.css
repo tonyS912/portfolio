@@ -10,3 +10,20 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
 }
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #fa7a02a7;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #fa7a02;
+}

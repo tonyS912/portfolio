@@ -17,8 +17,9 @@
 .person {
   position: absolute;
   top: 14rem;
-  left: 18rem;
+  left: 19rem;
   height: 40rem;
+  transform: scaleX(-1);
 }
 
 .name {

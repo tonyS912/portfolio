@@ -9,4 +9,24 @@ body {
   flex-direction: column;
   min-height: 100vh;
   scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #fa7a02a7;
+    border-radius: 10px;
+
+    &:hover {
+      background: #fa7a02;
+    }
+  }
 }
+
+

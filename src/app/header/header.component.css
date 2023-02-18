@@ -6,6 +6,7 @@ header {
   bottom: unset;
   background-color: #141D2F;
   padding: 0 5.5rem;
+  z-index: 100;
 }
 
 .headerForm {

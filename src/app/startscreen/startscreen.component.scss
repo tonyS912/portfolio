@@ -4,7 +4,7 @@
   width: 99vw;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .bg {
@@ -22,7 +22,6 @@
 }
 
 .name {
-
   h1 {
     font-size: 90px;
     margin: 0;
@@ -30,15 +29,13 @@
 }
 
 .job {
-
   h3 {
-    color: #FF4747;
+    color: #ff4747;
     font-weight: 300;
     font-size: 49px;
     margin: 0;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
-
   }
 }
 
@@ -48,26 +45,27 @@
   font-size: 23px;
   font-weight: 200;
   color: white;
-  background-color: #FA7902;
+  background-color: #fa7902;
   border: unset;
   border-radius: 10px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  z-index: 2;
 
   &:hover {
-    background-color: #FF4747;
+    background-color: #ff4747;
     transform: scale(1.1);
   }
 }
 
 .amI {
-  transform : rotate(-90deg);
+  transform: rotate(-90deg);
   font-size: 74px;
   font-weight: 300;
   display: flex;
   align-items: flex-end;
   padding-bottom: 2.25rem;
-    padding-left: 5rem;
+  padding-left: 5rem;
 }
 
 .d-flex {
@@ -75,8 +73,8 @@
 }
 
 .first {
-  margin-right: 9rem;
-  margin-top: 30vh;
+  margin-right: 7rem;
+  justify-content: flex-end;
 }
 
 .spacer-l {
@@ -96,7 +94,79 @@
 
 .wave {
   position: absolute;
-  top : 38rem;
+  top: 38rem;
   left: 0;
   width: 100%;
+
+  @media (min-width: 2100px) {
+    top: 34rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  @media (min-width: 2600px) {
+    top: 32rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  @media (min-width: 2900px) {
+    top: 30rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  @media (min-width: 3150px) {
+    top: 27rem;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.info-links {
+  z-index: 2;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+
+.social-media-home {
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+
+  a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+
+    img {
+      width: 2.25rem;
+      height: 2.25rem;
+
+      &:hover {
+        transform: scale(1.4);
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+}
+
+.mail-home {
+  font-size: 23px;
+  cursor: pointer;
+
+  &::after {
+    content: '';
+    display: block;
+    transform: scaleX(0);
+    border-bottom: 3px solid #FF4747;
+    transition: transform 0.3s ease-in-out;
+
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
+
+  .fromleft:after {
+    transform-origin: 0% 50%;
+  }
 }

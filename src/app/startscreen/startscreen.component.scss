@@ -1,7 +1,7 @@
 .home {
   height: 100vh;
   max-width: 100%;
-  width: 99vw;
+  width: calc(100vw - 8px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -74,7 +74,7 @@
 }
 
 .first {
-  margin-right: 7rem;
+  margin-right: 11.5rem;
   justify-content: flex-end;
 }
 
@@ -125,6 +125,12 @@
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
+
+  img {
+    width: 11.25rem;
+    height: 4px;
+    object-fit: cover;
+  }
 }
 
 

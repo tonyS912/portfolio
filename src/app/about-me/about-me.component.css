@@ -11,7 +11,7 @@
   color: white;
   display: flex;
   align-items: center;
-  width: calc(100% - 6px);
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .left-box {
-  margin-left: 6.5rem;
+  margin-left: 11.25rem;
 }
 
 .right-box {
@@ -69,6 +69,6 @@
 
 .right-box .horizontal-line {
   height: 3px;
-  width: 6.5rem;
+  width: 11.5rem;
   background-color: #FA7902;
 }

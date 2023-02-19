@@ -1,11 +1,9 @@
 .container {
-  position: absolute;
-  z-index: 2;
   color: white;
   display: flex;
   align-items: center;
-  top: 109rem;
   width: 100%;
+  margin-top: 6rem;
   justify-content: space-between;
 }
 
@@ -15,6 +13,10 @@
   justify-content: space-between;
   height: 30rem;
   margin-left: 11.25rem;
+
+  p {
+    font-weight: 300;
+  }
 }
 
 .line-items {
@@ -66,6 +68,7 @@
     text-align: end;
     font-size: 1.5rem;
     margin-bottom: 3rem;
+    font-weight: 300;
   }
 
   button {
@@ -96,11 +99,12 @@
   background-color: #FF4747;
   position: relative;
   top: 8rem;
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 
 .left-bg {
   position: absolute;
   left: 0;
-  top: 12rem;
+  top: 52rem;
+  z-index: -1;
 }

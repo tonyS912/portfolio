@@ -1,0 +1,180 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-top: 118px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.heading h2 {
+  font-size: 90px !important;
+  margin: 0;
+}
+
+.heading .line {
+  width: calc(36% + 8px);
+  height: 4px;
+  background-color: #ff4747;
+  margin-right: 5rem;
+}
+
+.heading .line-small {
+  width: 8rem;
+  height: 4px;
+  background-color: #ff4747;
+  margin-left: 5rem;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.project1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 30rem;
+  margin-left: 11.25rem;
+  margin-right: 11.5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.project1 h3 {
+  font-size: 2rem;
+  color: #FF4747;
+}
+
+.project1 span {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #FA7902;
+}
+
+.project1 p {
+  width: 40rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.project1 .btn-live {
+  width: 10rem;
+  height: 3.5rem;
+  background-color: #FF4747;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-right: 4rem;
+}
+
+.project1 .btn-live:hover {
+  background-color: #FA7902;
+  transform: scale(1.05);
+}
+
+.project1 .btn-git {
+  width: 10rem;
+  height: 3.5rem;
+  background-color: #141D2F;
+  color: white;
+  border: 1px solid #FA7902;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-right: 4rem;
+}
+
+.project1 .btn-git:hover {
+  background-color: #FA7902;
+  transform: scale(1.05);
+}
+
+.project2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  height: 30rem;
+  margin-left: 11.25rem;
+  margin-right: 11.5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.project2 h3 {
+  font-size: 2rem;
+  color: #FF4747;
+  text-align: end;
+}
+
+.project2 span {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #FA7902;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project2 p {
+  width: 40rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: end;
+}
+
+.project2 .btn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.project2 .btn-live {
+  width: 10rem;
+  height: 3.5rem;
+  background-color: #FF4747;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
+.project2 .btn-live:hover {
+  background-color: #FA7902;
+  transform: scale(1.05);
+}
+
+.project2 .btn-git {
+  width: 10rem;
+  height: 3.5rem;
+  background-color: #141D2F;
+  color: white;
+  border: 1px solid #FA7902;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
+.project2 .btn-git:hover {
+  background-color: #FA7902;
+  transform: scale(1.05);
+}

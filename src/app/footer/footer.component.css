@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  margin-bottom: 3.5rem;
+  border-top: 4px solid #fa7902;
+  padding-top: 3.5rem;
+}
+
+.container .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3.5rem;
+  padding-top: 3.5rem;
+  margin-left: 10.25rem;
+  margin-right: 11.5rem;
+}
+
+.container .content .logo {
+  width: 10.25rem;
+  height: 3.5rem;
+}
+
+.container .content .logo a {
+  margin-left: 1.25rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.container .content .social-media img {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}

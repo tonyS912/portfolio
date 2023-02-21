@@ -80,11 +80,12 @@
   font-weight: 300;
   margin-top: 1rem;
   margin-right: 4rem;
+  cursor: pointer;
 }
 
 .project1 .btn-live:hover {
   background-color: #FA7902;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .project1 .btn-git {
@@ -98,11 +99,12 @@
   font-weight: 300;
   margin-top: 1rem;
   margin-right: 4rem;
+  cursor: pointer;
 }
 
 .project1 .btn-git:hover {
   background-color: #FA7902;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .project2 {
@@ -154,11 +156,12 @@
   font-weight: 300;
   margin-top: 1rem;
   margin-left: 4rem;
+  cursor: pointer;
 }
 
 .project2 .btn-live:hover {
   background-color: #FA7902;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .project2 .btn-git {
@@ -172,9 +175,10 @@
   font-weight: 300;
   margin-top: 1rem;
   margin-left: 4rem;
+  cursor: pointer;
 }
 
 .project2 .btn-git:hover {
   background-color: #FA7902;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }

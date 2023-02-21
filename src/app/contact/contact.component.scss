@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  margin-bottom: 11.5rem;
 }
 
 .heading {
@@ -11,7 +12,7 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   justify-content: flex-end;
 
   h2 {
@@ -48,21 +49,133 @@
   display: flex;
   flex-direction: column;
   margin-left: 11.5rem;
+  margin-top: 2rem;
 
-  .contact {
+  form {
     display: flex;
-    flex-direction: row;
-    margin-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .icon {
-      width: 3rem;
-      height: 3rem;
-      margin-right: 1rem;
+  span {
+    color: #e61c40;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    width: 38.75rem;
+    max-width: 38.75rem;
+    min-width: 18rem;
+    height: 2.5rem;
+    border: 1px solid #ff4747;
+    background-color: transparent;
+    border-radius: 10px;
+    padding-left: 1rem;
+    margin-bottom: 0.25rem;
+    color: white;
+    font-size: 1.35rem;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1rem;
+
+    &::placeholder {
+      color: lightgray;
     }
 
-    .text {
-      font-size: 1.5rem;
-      font-weight: 300;
+    &:focus-visible {
+      outline: none;
+      border: 1px solid #70E61C;
+
+      &:hover {
+        border: 1px solid #70E61C;
+      }
+    }
+
+    &:hover {
+      border: 1px solid #d61ce6;
     }
   }
+
+  textarea {
+    max-width: 38.75rem;
+    min-width: 18rem;
+    width: 38.75rem;
+    max-height: 20rem;
+    height: 12.5rem;
+    margin-bottom: 0.25rem;
+    border: 1px solid #ff4747;
+    background-color: transparent;
+    border-radius: 10px;
+    padding-left: 1rem;
+    color: white;
+    font-size: 1.35rem;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1rem;
+
+    &::placeholder {
+      color: lightgray;
+    }
+
+    &:focus-visible {
+      outline: none;
+      border: 1px solid #70E61C;
+
+      &:hover {
+        border: 1px solid #70E61C;
+      }
+    }
+
+    &:hover {
+      border: 1px solid #d61ce6;
+    }
+
+    &::-webkit-scrollbar {
+      width: 0.5rem;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #fa7902a7;
+      border-radius: 10px;
+
+      &:hover {
+        background: #fa7902;
+      }
+    }
+  }
+
+  button {
+    width: 15.75rem;
+    height: 3.625rem;
+    border-radius: 10px;
+    background-color: #fa7902;
+    border: unset;
+    outline: unset;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ff4747;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.d-none {
+  display: none;
 }

@@ -31,6 +31,7 @@
 .content {
   display: flex;
   margin-left: 11.5rem;
+  justify-content: space-between;
 }
 
 .content h3 {
@@ -48,7 +49,7 @@
 .contact-area {
   display: flex;
   flex-direction: column;
-  margin-left: 11.5rem;
+  margin-right: 11.5rem;
   margin-top: 2rem;
 }
 

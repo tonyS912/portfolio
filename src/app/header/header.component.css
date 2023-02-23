@@ -4,13 +4,16 @@ header {
   left: 0;
   right: 0;
   bottom: unset;
-  background-color: #141D2F;
+  background-color: #141d2f;
   padding: 0 10rem;
   z-index: 100;
+  display: flex;
+  justify-content: center;
 }
 
 .headerForm {
   height: 6.25rem;
+  width: 100.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,15 +36,15 @@ header {
 }
 
 .desktop-links a::after {
-  content: '';
+  content: "";
   display: block;
   transform: scaleX(0);
-  border-bottom: 3px solid #FF4747;
+  border-bottom: 3px solid #ff4747;
   transition: transform 0.3s ease-in-out;
 }
 
 .desktop-links a:hover {
-  color: #FA7902;
+  color: #fa7902;
 }
 
 .desktop-links a:hover::after {

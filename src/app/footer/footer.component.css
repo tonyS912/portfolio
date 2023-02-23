@@ -9,16 +9,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  margin-bottom: 3.5rem;
-  padding-top: 3.5rem;
-  margin-left: 10.25rem;
-  margin-right: 11.5rem;
+  width: 97.5rem;
+  margin: 3.5rem auto;
 }
 
 .container .content .logo {
   width: 10.25rem;
   height: 5rem;
+}
+
+.container .content .logo img {
+  margin-left: -1.25rem;
 }
 
 .container .content .logo a {

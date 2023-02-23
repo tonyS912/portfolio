@@ -11,8 +11,8 @@
   flex-direction: row;
   align-items: center;
   height: 100%;
-  width: 100%;
-  margin-bottom: 5rem;
+  width: 97.5rem;
+  margin: 3.5rem auto;
   justify-content: flex-end;
 
   h2 {
@@ -21,17 +21,21 @@
   }
 
   .line {
-    width: 11.5rem;
     height: 4px;
+    width: calc((100% - 1750px) / 2);
     background-color: #ff4747;
-    margin-left: 5rem;
+    position: absolute;
+    top: 261.5rem;
+    right: 0;
+    margin-left: 3rem;
   }
 }
 
 .content {
   display: flex;
-  margin-left: 11.5rem;
+  margin: 0 auto;
   justify-content: space-between;
+  width: 97.5rem;
 
   h3 {
     font-size: 32px;
@@ -49,7 +53,6 @@
 .contact-area {
   display: flex;
   flex-direction: column;
-  margin-right: 11.5rem;
   margin-top: 2rem;
 
   form {

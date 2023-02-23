@@ -10,9 +10,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   height: 100%;
-  width: 100%;
-  margin-bottom: 2rem;
+  width: 97.5rem;
+  margin: 3.5rem auto;
 }
 
 .heading h2 {
@@ -21,10 +22,13 @@
 }
 
 .heading .line {
-  width: calc(36% + 8px);
   height: 4px;
+  width: calc(100vw / 2 - 17rem);
   background-color: #ff4747;
-  margin-right: 5rem;
+  position: absolute;
+  top: 91.25rem;
+  left: 0;
+  margin-right: 3rem;
 }
 
 .heading .line-small {
@@ -38,6 +42,8 @@
   text-align: center;
   font-size: 1.5rem;
   font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 5rem;
 }
 
 .project1 {
@@ -67,6 +73,11 @@
   width: 40rem;
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+.project1 img {
+  width: 640px;
+  margin-left: 46px;
 }
 
 .project1 .btn-live {
@@ -140,6 +151,11 @@
   text-align: end;
 }
 
+.project2 img {
+  width: 640px;
+  margin-right: 46px;
+}
+
 .project2 .btn {
   display: flex;
   flex-direction: row-reverse;
@@ -181,4 +197,12 @@
 .project2 .btn-git:hover {
   background-color: #FA7902;
   transform: scale(1.1);
+}
+
+.resp-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 101.5rem;
 }

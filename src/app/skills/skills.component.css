@@ -12,7 +12,6 @@
   flex-direction: row;
   justify-content: space-between;
   height: 30rem;
-  margin-left: 11.25rem;
 }
 
 .skills p {
@@ -47,7 +46,7 @@
   flex-direction: row;
   justify-content: space-between;
   height: 100%;
-  width: 52.5rem;
+  width: 42.5rem;
 }
 
 .my-skills {
@@ -75,9 +74,9 @@
   margin-left: 5.75rem;
   width: 12rem;
   height: 3.5rem;
-  border: 1px solid #FA7902;
+  border: 1px solid #fa7902;
   border-radius: 0.5rem;
-  background-color: #FA7902;
+  background-color: #fa7902;
   color: white;
   font-size: 1.5rem;
   font-weight: 300;
@@ -88,16 +87,17 @@
 }
 
 .my-skills button:hover {
-  background-color: #FF4747;
+  background-color: #ff4747;
   transform: scale(1.1);
 }
 
 .cut-line {
   height: 4px;
-  width: 14rem;
-  background-color: #FF4747;
-  position: relative;
-  top: 8rem;
+  width: calc((100% - 1750px) / 2);
+  background-color: #ff4747;
+  position: absolute;
+  top: 58rem;
+  right: 0;
   margin-left: 3rem;
 }
 
@@ -106,4 +106,12 @@
   left: 0;
   top: 52rem;
   z-index: -1;
+}
+
+.resp-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 97.5rem;
 }

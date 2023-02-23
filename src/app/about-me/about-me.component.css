@@ -9,8 +9,9 @@
   color: white;
   display: flex;
   align-items: center;
-  width: 100%;
   justify-content: space-between;
+  width: 97.5rem;
+  margin: 0 auto;
 }
 
 .about-me h2 {
@@ -55,12 +56,8 @@
 }
 
 .portrait {
-  border: 3px solid #FA7902;
+  border: 3px solid #fa7902;
   border-radius: 50%;
-}
-
-.left-box {
-  margin-left: 11.25rem;
 }
 
 .right-box {
@@ -68,10 +65,4 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-
-.right-box .horizontal-line {
-  height: 3px;
-  width: 11.5rem;
-  background-color: #FA7902;
 }

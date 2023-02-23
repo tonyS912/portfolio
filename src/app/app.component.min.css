@@ -1,1 +1,1 @@
-.content{display:flex;flex-direction:column;width:calc(100vw - 8px);position:absolute;z-index:1}
+.content{display:flex;flex-direction:column;width:calc(100vw - 8px);position:relative}

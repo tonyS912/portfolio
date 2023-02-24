@@ -9,11 +9,14 @@ header {
   z-index: 100;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
+
+
 }
 
 .headerForm {
   height: 6.25rem;
-  width: 100.5rem;
+  width: 96.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;

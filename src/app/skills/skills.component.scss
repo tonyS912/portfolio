@@ -24,6 +24,11 @@
   justify-content: space-between;
   height: 100%;
   margin-right: 8rem;
+
+  @media screen and (max-width: 1439px) {
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
 }
 
 .line-item2 {
@@ -32,6 +37,11 @@
   justify-content: space-between;
   height: 18.6rem;
   margin-right: 8rem;
+
+  @media screen and (max-width: 1439px) {
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
 }
 
 .item {
@@ -47,6 +57,10 @@
   justify-content: space-between;
   height: 100%;
   width: 42.5rem;
+
+  @media screen and (max-width: 1439px) {
+    margin-bottom: 6rem;
+  }
 }
 
 .my-skills {
@@ -61,6 +75,11 @@
     margin-bottom: 2rem;
     width: 100%;
     text-align: end;
+
+    @media screen and (max-width: 1439px) {
+      text-align: center;
+      margin-top: 0;
+    }
   }
 
   p {
@@ -68,6 +87,10 @@
     font-size: 1.5rem;
     margin-bottom: 3rem;
     font-weight: 300;
+
+    @media screen and (max-width: 1439px) {
+      text-align: center;
+    }
   }
 
   button {
@@ -89,6 +112,10 @@
       background-color: #ff4747;
       transform: scale(1.1);
     }
+
+    @media screen and (max-width: 1439px) {
+      margin: 0;
+    }
   }
 }
 
@@ -104,6 +131,11 @@
   @media screen and (max-width: 1919px) {
     width: calc((100% - 1400px) / 2);
     top: 60.5rem;
+  }
+
+  @media screen and (max-width: 1439px) {
+    width: calc((100% - 491px) / 2);
+    top: 54rem;
   }
 }
 
@@ -123,5 +155,9 @@
 
   @media screen and (max-width: 1919px) {
     width: 80rem;
+  }
+
+  @media screen and (max-width: 1439px) {
+    flex-direction: column-reverse;
   }
 }

@@ -6,6 +6,12 @@
   margin-top: 118px;
 }
 
+@media screen and (max-width: 1439px) {
+  .container {
+    margin-top: 60px;
+  }
+}
+
 .heading {
   display: flex;
   flex-direction: row;
@@ -43,6 +49,12 @@
   }
 }
 
+@media screen and (max-width: 1439px) {
+  .heading .line {
+    top: 117rem;
+  }
+}
+
 .heading .line-small {
   width: 8rem;
   height: 4px;
@@ -70,6 +82,12 @@
   margin-bottom: 5rem;
 }
 
+@media screen and (max-width: 1439px) {
+  .project1 {
+    height: 100%;
+  }
+}
+
 .project1 h3 {
   font-size: 2rem;
   color: #FF4747;
@@ -90,6 +108,12 @@
 .project1 img {
   width: 640px;
   margin-left: 46px;
+}
+
+@media screen and (max-width: 1439px) {
+  .project1 img {
+    margin: 0;
+  }
 }
 
 .project1 .btn-live {
@@ -130,6 +154,12 @@
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 1439px) {
+  .project1 .btn-git {
+    margin-right: 1.5rem;
+  }
+}
+
 .project2 {
   display: flex;
   flex-direction: row-reverse;
@@ -140,6 +170,12 @@
   margin-right: 11.5rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1439px) {
+  .project2 {
+    height: 100%;
+  }
 }
 
 .project2 h3 {
@@ -166,6 +202,12 @@
 .project2 img {
   width: 640px;
   margin-right: 46px;
+}
+
+@media screen and (max-width: 1439px) {
+  .project2 img {
+    margin: 0;
+  }
 }
 
 .project2 .btn {
@@ -211,6 +253,12 @@
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 1439px) {
+  .project2 .btn-git {
+    margin-left: -1rem;
+  }
+}
+
 .resp-box {
   display: flex;
   align-items: center;
@@ -222,5 +270,21 @@
 @media screen and (max-width: 1919px) {
   .resp-box {
     width: 84.5rem;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .resp-box {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .view1440 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6rem;
   }
 }

@@ -27,9 +27,22 @@
   }
 }
 
+@media screen and (max-width: 1439px) {
+  .bg {
+    left: calc(100vw / 2 - 30rem);
+  }
+}
+
 .person {
   height: 40rem;
   transform: scaleX(-1);
+}
+
+@media screen and (max-width: 1919px) {
+  .person {
+    position: relative;
+    top: 5rem;
+  }
 }
 
 .name h1 {
@@ -73,11 +86,21 @@
   align-items: flex-end;
   padding-bottom: 4.25rem;
   padding-left: 5rem;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1919px) {
   .amI {
     padding-bottom: 12.75rem;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .amI {
+    padding: 0;
+    position: relative;
+    top: 8.1rem;
+    left: -20rem;
   }
 }
 
@@ -87,6 +110,13 @@
 
 .first {
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1439px) {
+  .first {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .spacer-l {
@@ -102,6 +132,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1439px) {
+  .description {
+    align-items: center;
+  }
 }
 
 .wave {
@@ -144,6 +181,12 @@
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .info-links {
+    justify-content: center;
+  }
 }
 
 .info-links img {
@@ -206,6 +249,12 @@
 
 @media screen and (max-width: 1919px) {
   .line {
-    width: calc(100vw / 2 - 45rem);
+    width: calc(100vw / 2 - 44rem);
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .line {
+    width: calc(100vw / 2 - 18rem);
   }
 }

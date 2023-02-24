@@ -8,11 +8,23 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1919px) {
+  .home {
+    max-width: 80rem;
+  }
+}
+
 .bg {
   position: absolute;
   top: 9rem;
   left: calc(100vw / 2 - 65rem);
   transform: scale(1.25);
+}
+
+@media screen and (max-width: 1919px) {
+  .bg {
+    left: calc(100vw / 2 - 55rem);
+  }
 }
 
 .person {
@@ -61,6 +73,12 @@
   align-items: flex-end;
   padding-bottom: 4.25rem;
   padding-left: 5rem;
+}
+
+@media screen and (max-width: 1919px) {
+  .amI {
+    padding-bottom: 12.75rem;
+  }
 }
 
 .d-flex {
@@ -184,4 +202,10 @@
   top: calc(100vh - 3.6rem);
   left: 0;
   margin-right: 3rem;
+}
+
+@media screen and (max-width: 1919px) {
+  .line {
+    width: calc(100vw / 2 - 45rem);
+  }
 }

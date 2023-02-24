@@ -14,6 +14,12 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1919px) {
+  .container {
+    width: 80rem;
+  }
+}
+
 .about-me h2 {
   font-size: 90px !important;
   margin-bottom: 2rem;
@@ -24,6 +30,12 @@
   flex-direction: column;
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+@media screen and (max-width: 1919px) {
+  .about-me-text {
+    width: 50rem;
+  }
 }
 
 .conviction {

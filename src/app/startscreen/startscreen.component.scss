@@ -6,6 +6,10 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
+
+  @media screen and (max-width: 1919px) {
+    max-width: 80rem;
+  }
 }
 
 .bg {
@@ -13,6 +17,10 @@
   top: 9rem;
   left: calc(100vw / 2 - 65rem);
   transform: scale(1.25);
+
+  @media screen and (max-width: 1919px) {
+    left: calc(100vw / 2 - 55rem);
+  }
 }
 
 .person {
@@ -65,6 +73,10 @@
   align-items: flex-end;
   padding-bottom: 4.25rem;
   padding-left: 5rem;
+
+  @media screen and (max-width: 1919px) {
+    padding-bottom: 12.75rem;
+  }
 }
 
 .d-flex {
@@ -181,4 +193,8 @@
   top: calc(100vh - 3.6rem);
   left: 0;
   margin-right: 3rem;
+
+  @media screen and (max-width: 1919px) {
+    width: calc(100vw / 2 - 45rem);
+  }
 }

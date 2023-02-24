@@ -15,6 +15,10 @@
   margin: 3.5rem auto;
   justify-content: flex-end;
 
+  @media screen and (max-width: 1919px) {
+    width: 80rem;
+  }
+
   h2 {
     font-size: 90px !important;
     margin: 0;
@@ -28,6 +32,11 @@
     top: 261.5rem;
     right: 0;
     margin-left: 3rem;
+
+    @media screen and (max-width: 1919px) {
+      top: 265rem;
+      width: calc((100% - 1400px) / 2);
+    }
   }
 }
 
@@ -36,6 +45,10 @@
   margin: 0 auto;
   justify-content: space-between;
   width: 97.5rem;
+
+  @media screen and (max-width: 1919px) {
+    width: 79rem;
+  }
 
   h3 {
     font-size: 32px;
@@ -47,6 +60,10 @@
     font-weight: 300;
     width: 45rem;
     margin-bottom: 2rem;
+
+    @media screen and (max-width: 1919px) {
+      width: 30rem;
+    }
   }
 }
 

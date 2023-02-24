@@ -101,6 +101,13 @@
   margin-left: 3rem;
 }
 
+@media screen and (max-width: 1919px) {
+  .cut-line {
+    width: calc((100% - 1400px) / 2);
+    top: 60.5rem;
+  }
+}
+
 .left-bg {
   position: absolute;
   left: 0;
@@ -114,4 +121,10 @@
   justify-content: space-between;
   margin: 0 auto;
   width: 97.5rem;
+}
+
+@media screen and (max-width: 1919px) {
+  .resp-box {
+    width: 80rem;
+  }
 }

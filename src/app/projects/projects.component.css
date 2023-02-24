@@ -16,6 +16,12 @@
   margin: 3.5rem auto;
 }
 
+@media screen and (max-width: 1919px) {
+  .heading {
+    width: 80rem;
+  }
+}
+
 .heading h2 {
   font-size: 90px !important;
   margin: 0;
@@ -29,6 +35,12 @@
   top: 91.25rem;
   left: 0;
   margin-right: 3rem;
+}
+
+@media screen and (max-width: 1919px) {
+  .heading .line {
+    top: 95rem;
+  }
 }
 
 .heading .line-small {
@@ -205,4 +217,10 @@
   justify-content: space-between;
   margin: 0 auto;
   width: 101.5rem;
+}
+
+@media screen and (max-width: 1919px) {
+  .resp-box {
+    width: 84.5rem;
+  }
 }

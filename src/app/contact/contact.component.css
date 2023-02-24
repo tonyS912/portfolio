@@ -16,6 +16,12 @@
   justify-content: flex-end;
 }
 
+@media screen and (max-width: 1919px) {
+  .heading {
+    width: 80rem;
+  }
+}
+
 .heading h2 {
   font-size: 90px !important;
   margin: 0;
@@ -31,11 +37,24 @@
   margin-left: 3rem;
 }
 
+@media screen and (max-width: 1919px) {
+  .heading .line {
+    top: 265rem;
+    width: calc((100% - 1400px) / 2);
+  }
+}
+
 .content {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
   width: 97.5rem;
+}
+
+@media screen and (max-width: 1919px) {
+  .content {
+    width: 79rem;
+  }
 }
 
 .content h3 {
@@ -48,6 +67,12 @@
   font-weight: 300;
   width: 45rem;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1919px) {
+  .content p {
+    width: 30rem;
+  }
 }
 
 .contact-area {

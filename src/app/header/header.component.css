@@ -19,6 +19,12 @@ header {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1919px) {
+  .headerForm {
+    width: 80rem;
+  }
+}
+
 .desktop-links {
   display: flex;
   align-items: center;
@@ -31,7 +37,7 @@ header {
   font-size: 1.5rem;
   font-weight: 400;
   text-decoration: none;
-  margin: 0 1.5rem;
+  margin-left: 3rem;
   cursor: pointer;
 }
 

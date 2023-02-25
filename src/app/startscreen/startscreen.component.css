@@ -30,6 +30,14 @@
 @media screen and (max-width: 1439px) {
   .bg {
     left: calc(100vw / 2 - 30rem);
+    width: 52rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .bg {
+    left: calc(100vw / 2 - 23rem);
+    width: 40rem;
   }
 }
 

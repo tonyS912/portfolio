@@ -19,6 +19,12 @@
   }
 }
 
+@media screen and (max-width: 1439px) {
+  .container .content {
+    width: 52rem;
+  }
+}
+
 .container .content .logo {
   width: 10.25rem;
   height: 5rem;

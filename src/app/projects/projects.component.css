@@ -28,6 +28,12 @@
   }
 }
 
+@media screen and (max-width: 1439px) {
+  .heading {
+    width: fit-content;
+  }
+}
+
 .heading h2 {
   font-size: 90px !important;
   margin: 0;
@@ -276,6 +282,7 @@
 @media screen and (max-width: 1439px) {
   .resp-box {
     flex-direction: column;
+    width: fit-content;
   }
 }
 

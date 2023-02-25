@@ -9,8 +9,9 @@
       <a routerLink="/contact">Contact</a>
     </nav>
   </div>
-  <div style="display: none;">
-    <nav >
+  <img (click)="showMediaMenu()" class="burger-menu" src="assets/img/burger-menu.png">
+  <div class="mobile-menu" [ngClass]="{'showMediaMenu': !showMenu}">
+    <nav class="mobile-links">
       <a routerLink="/home">Home</a>
       <a routerLink="/about">About me</a>
       <a routerLink="/skills">Skills</a>

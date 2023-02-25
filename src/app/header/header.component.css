@@ -24,6 +24,12 @@ header {
   cursor: pointer;
 }
 
+@media screen and (max-width: 992px) {
+  .headerForm img {
+    transform: translateX(-45px);
+  }
+}
+
 @media screen and (max-width: 1919px) {
   .headerForm {
     width: 80rem;

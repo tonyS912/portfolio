@@ -8,6 +8,10 @@
   @media screen and (max-width: 1439px) {
     margin-top: 60px;
   }
+
+  @media screen and (max-width: 992px) {
+    align-items: center;
+  }
 }
 
 .heading {
@@ -34,7 +38,7 @@
 
   .line {
     height: 4px;
-    width: calc(100vw / 2 - 17rem);;
+    width: calc(100vw / 2 - 17rem);
     background-color: #ff4747;
     position: absolute;
     top: 91.25rem;
@@ -47,6 +51,10 @@
 
     @media screen and (max-width: 1439px) {
       top: 117rem;
+    }
+
+    @media screen and (max-width: 992px) {
+      top: 126rem;
     }
   }
 
@@ -64,6 +72,10 @@
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 5rem;
+
+  @media screen and (max-width: 992px) {
+    width: 30rem;
+  }
 }
 
 .project1 {
@@ -83,19 +95,23 @@
 
   h3 {
     font-size: 2rem;
-    color: #FF4747;
+    color: #ff4747;
   }
 
   span {
     font-size: 1.5rem;
     font-weight: 300;
-    color: #FA7902;
+    color: #fa7902;
   }
 
   p {
     width: 40rem;
     font-size: 1.5rem;
     font-weight: 300;
+
+    @media screen and (max-width: 992px) {
+      width: 30rem;
+    }
   }
 
   img {
@@ -105,12 +121,16 @@
     @media screen and (max-width: 1439px) {
       margin: 0;
     }
+
+    @media screen and (max-width: 992px) {
+      transform: scale(0.9);
+    }
   }
 
   .btn-live {
     width: 10rem;
     height: 3.5rem;
-    background-color: #FF4747;
+    background-color: #ff4747;
     color: white;
     border: none;
     border-radius: 5px;
@@ -121,7 +141,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #FA7902;
+      background-color: #fa7902;
       transform: scale(1.1);
     }
   }
@@ -129,9 +149,9 @@
   .btn-git {
     width: 10rem;
     height: 3.5rem;
-    background-color: #141D2F;
+    background-color: #141d2f;
     color: white;
-    border: 1px solid #FA7902;
+    border: 1px solid #fa7902;
     border-radius: 5px;
     font-size: 1.5rem;
     font-weight: 300;
@@ -140,7 +160,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #FA7902;
+      background-color: #fa7902;
       transform: scale(1.1);
     }
 
@@ -167,14 +187,14 @@
 
   h3 {
     font-size: 2rem;
-    color: #FF4747;
+    color: #ff4747;
     text-align: end;
   }
 
   span {
     font-size: 1.5rem;
     font-weight: 300;
-    color: #FA7902;
+    color: #fa7902;
     display: flex;
     justify-content: flex-end;
   }
@@ -184,6 +204,11 @@
     font-size: 1.5rem;
     font-weight: 300;
     text-align: end;
+
+    @media screen and (max-width: 992px) {
+      width: 30rem;
+      text-align: center;
+    }
   }
 
   img {
@@ -192,6 +217,10 @@
 
     @media screen and (max-width: 1439px) {
       margin: 0;
+    }
+
+    @media screen and (max-width: 992px) {
+      transform: scale(0.9);
     }
   }
 
@@ -203,7 +232,7 @@
   .btn-live {
     width: 10rem;
     height: 3.5rem;
-    background-color: #FF4747;
+    background-color: #ff4747;
     color: white;
     border: none;
     border-radius: 5px;
@@ -214,7 +243,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #FA7902;
+      background-color: #fa7902;
       transform: scale(1.1);
     }
   }
@@ -222,9 +251,9 @@
   .btn-git {
     width: 10rem;
     height: 3.5rem;
-    background-color: #141D2F;
+    background-color: #141d2f;
     color: white;
-    border: 1px solid #FA7902;
+    border: 1px solid #fa7902;
     border-radius: 5px;
     font-size: 1.5rem;
     font-weight: 300;
@@ -233,7 +262,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #FA7902;
+      background-color: #fa7902;
       transform: scale(1.1);
     }
 
@@ -267,5 +296,6 @@
     justify-content: center;
     align-items: center;
     margin-top: -6rem;
+    text-align: center;
   }
 }

@@ -29,6 +29,12 @@
     margin-right: 4rem;
     margin-left: 4rem;
   }
+
+  @media screen and (max-width: 992px) {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    height: 25rem;
+  }
 }
 
 .line-item2 {
@@ -41,6 +47,12 @@
   @media screen and (max-width: 1439px) {
     margin-right: 4rem;
     margin-left: 4rem;
+  }
+
+  @media screen and (max-width: 992px) {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    height: 15.6rem;
   }
 }
 
@@ -60,6 +72,10 @@
 
   @media screen and (max-width: 1439px) {
     margin-bottom: 6rem;
+  }
+
+  @media screen and (max-width: 992px) {
+    width: 30rem;
   }
 }
 
@@ -136,6 +152,10 @@
   @media screen and (max-width: 1439px) {
     width: calc((100% - 491px) / 2);
     top: 54rem;
+  }
+
+  @media screen and (max-width: 992px) {
+    top: 61rem;
   }
 }
 

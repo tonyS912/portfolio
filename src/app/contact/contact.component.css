@@ -59,6 +59,12 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .heading .line {
+    top: 428rem;
+  }
+}
+
 .content {
   display: flex;
   margin: 0 auto;
@@ -156,6 +162,12 @@
   border: 1px solid #d61ce6;
 }
 
+@media screen and (max-width: 992px) {
+  .contact-area input {
+    width: 30rem;
+  }
+}
+
 .contact-area textarea {
   max-width: 38.75rem;
   min-width: 18rem;
@@ -206,6 +218,12 @@
 
 .contact-area textarea::-webkit-scrollbar-thumb:hover {
   background: #fa7902;
+}
+
+@media screen and (max-width: 992px) {
+  .contact-area textarea {
+    width: 30rem;
+  }
 }
 
 .contact-area button {

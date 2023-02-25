@@ -21,6 +21,10 @@ header {
 
   img {
     cursor: pointer;
+
+    @media screen and (max-width: 992px) {
+      transform: translateX(-45px);
+    }
   }
 
   @media screen and (max-width: 1919px) {

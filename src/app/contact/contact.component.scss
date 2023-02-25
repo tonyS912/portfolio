@@ -50,6 +50,10 @@
       top: 410rem;
       width: calc((100% - 450px) / 2);
     }
+
+    @media screen and (max-width: 992px) {
+      top: 428rem;
+    }
   }
 }
 
@@ -141,6 +145,10 @@
     &:hover {
       border: 1px solid #d61ce6;
     }
+
+    @media screen and (max-width: 992px) {
+      width: 30rem;
+    }
   }
 
   textarea {
@@ -192,6 +200,10 @@
       &:hover {
         background: #fa7902;
       }
+    }
+
+    @media screen and (max-width: 992px) {
+      width: 30rem;
     }
   }
 

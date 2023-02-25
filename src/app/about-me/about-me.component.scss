@@ -34,6 +34,12 @@
     display: flex;
     justify-content: center;
   }
+
+  @media screen and (max-width: 992px) {
+    position: relative;
+    z-index: 3;
+  }
+
 }
 
 .about-me-text {
@@ -45,18 +51,28 @@
   @media screen and (max-width: 1919px) {
     width: 50rem;
   }
+
+  @media screen and (max-width: 992px) {
+    width: 480px;
+  }
+
+  @media screen and (max-width: 992px) {
+    position: relative;
+    z-index: 3;
+  }
 }
 
 .conviction {
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
 
   img {
-    margin-left: 0.5rem;
-    margin-right: 2rem;
+    margin-right: 1.7rem;
     width: 55px;
+    height: 55px;
   }
 }
 
@@ -64,15 +80,16 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
 
   img {
     margin-right: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80px;
-    height: 80px;
+    width: 65px;
+    height: 65px;
   }
 }
 

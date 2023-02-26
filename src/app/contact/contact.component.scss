@@ -5,7 +5,9 @@
   height: 100%;
   margin-bottom: 11.5rem;
 
-
+  @media screen and (max-width: 768px) {
+    align-items: center;
+  }
 }
 
 .heading {
@@ -28,8 +30,12 @@
   }
 
   h2 {
-    font-size: 90px !important;
+    font-size: 90px;
     margin: 0;
+
+    @media screen and (max-width: 479px) {
+    font-size: 60px;
+    }
   }
 
   .line {
@@ -54,6 +60,10 @@
     @media screen and (max-width: 992px) {
       top: 428rem;
     }
+
+    @media screen and (max-width: 479px) {
+      display: none;
+    }
   }
 }
 
@@ -72,6 +82,11 @@
     align-items: center;
     text-align: center;
     width: fit-content;
+  }
+
+  @media screen and (max-width: 479px) {
+    width: 300px;
+    margin: 0;
   }
 
   h3 {
@@ -116,7 +131,7 @@
   input {
     width: 38.75rem;
     max-width: 38.75rem;
-    min-width: 18rem;
+    min-width: 16rem;
     height: 2.5rem;
     border: 1px solid #ff4747;
     background-color: transparent;
@@ -149,11 +164,19 @@
     @media screen and (max-width: 992px) {
       width: 30rem;
     }
+
+    @media screen and (max-width: 768px) {
+      width: 340px;
+    }
+
+    @media screen and (max-width: 479px) {
+      width: 16rem;
+    }
   }
 
   textarea {
     max-width: 38.75rem;
-    min-width: 18rem;
+    min-width: 16rem;
     width: 38.75rem;
     max-height: 20rem;
     height: 12.5rem;
@@ -205,6 +228,15 @@
     @media screen and (max-width: 992px) {
       width: 30rem;
     }
+
+    @media screen and (max-width: 768px) {
+      width: 340px;
+    }
+
+    @media screen and (max-width: 479px) {
+      width: 16rem;
+      max-width: 16rem;
+    }
   }
 
   button {
@@ -231,4 +263,27 @@
 
 .d-none {
   display: none;
+}
+
+.view480 {
+  @media screen and (max-width: 768px) {
+    width: 320px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  h3 {
+    @media screen and (max-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+  p {
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+      width: 300px;
+    }
+  }
 }

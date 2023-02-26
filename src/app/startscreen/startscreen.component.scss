@@ -10,6 +10,10 @@
   @media screen and (max-width: 1919px) {
     max-width: 80rem;
   }
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .bg {
@@ -38,6 +42,15 @@
     top: 12rem;
   }
 
+  @media screen and ( max-width: 479px) {
+    overflow: hidden;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+  }
+
 }
 
 .person {
@@ -52,6 +65,10 @@
   @media screen and (max-width: 769px) {
     height: 30rem;
     top: 2rem;
+  }
+
+  @media screen and (max-width: 479px) {
+    height: 25rem;
   }
 }
 
@@ -119,14 +136,16 @@
   z-index: 2;
 
   @media screen and (max-width: 1919px) {
-    padding-bottom: 12.75rem;
+    padding-bottom: 9.25rem;
+    font-size: 60px;
   }
 
   @media screen and (max-width: 1439px) {
     padding: 0;
     position: relative;
-    top: 8.1rem;
-    left: -20rem;
+    top: 6.5rem;
+    left: -17rem;
+    font-size: 60px;
   }
 
   @media screen and (max-width: 992px) {
@@ -137,6 +156,10 @@
 
   @media screen and (max-width: 769px) {
     font-size: 50px;
+  }
+
+  @media screen and (max-height: 900px) {
+    display: none;
   }
 }
 
@@ -178,6 +201,10 @@
   top: calc(100vh / 2);
   left: 0;
   width: 100%;
+
+  @media screen and (max-width: 768px) {
+    top: 45vh;
+  }
 
   @media (min-width: 2100px) {
     top: 34rem;

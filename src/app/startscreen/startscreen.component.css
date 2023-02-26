@@ -14,6 +14,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .home {
+    text-align: center;
+  }
+}
+
 .bg {
   position: absolute;
   top: 9rem;
@@ -49,6 +55,17 @@
   }
 }
 
+@media screen and (max-width: 479px) {
+  .bg {
+    overflow: hidden;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 .person {
   height: 40rem;
   transform: scaleX(-1);
@@ -65,6 +82,12 @@
   .person {
     height: 30rem;
     top: 2rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .person {
+    height: 25rem;
   }
 }
 
@@ -138,7 +161,8 @@
 
 @media screen and (max-width: 1919px) {
   .amI {
-    padding-bottom: 12.75rem;
+    padding-bottom: 9.25rem;
+    font-size: 60px;
   }
 }
 
@@ -146,8 +170,9 @@
   .amI {
     padding: 0;
     position: relative;
-    top: 8.1rem;
-    left: -20rem;
+    top: 6.5rem;
+    left: -17rem;
+    font-size: 60px;
   }
 }
 
@@ -162,6 +187,12 @@
 @media screen and (max-width: 769px) {
   .amI {
     font-size: 50px;
+  }
+}
+
+@media screen and (max-height: 900px) {
+  .amI {
+    display: none;
   }
 }
 
@@ -207,6 +238,12 @@
   top: calc(100vh / 2);
   left: 0;
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .wave {
+    top: 45vh;
+  }
 }
 
 @media (min-width: 2100px) {

@@ -6,6 +6,12 @@
   margin-bottom: 11.5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    align-items: center;
+  }
+}
+
 .heading {
   display: flex;
   flex-direction: row;
@@ -31,8 +37,14 @@
 }
 
 .heading h2 {
-  font-size: 90px !important;
+  font-size: 90px;
   margin: 0;
+}
+
+@media screen and (max-width: 479px) {
+  .heading h2 {
+    font-size: 60px;
+  }
 }
 
 .heading .line {
@@ -65,6 +77,12 @@
   }
 }
 
+@media screen and (max-width: 479px) {
+  .heading .line {
+    display: none;
+  }
+}
+
 .content {
   display: flex;
   margin: 0 auto;
@@ -84,6 +102,13 @@
     align-items: center;
     text-align: center;
     width: fit-content;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .content {
+    width: 300px;
+    margin: 0;
   }
 }
 
@@ -131,7 +156,7 @@
 .contact-area input {
   width: 38.75rem;
   max-width: 38.75rem;
-  min-width: 18rem;
+  min-width: 16rem;
   height: 2.5rem;
   border: 1px solid #ff4747;
   background-color: transparent;
@@ -168,9 +193,21 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .contact-area input {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .contact-area input {
+    width: 16rem;
+  }
+}
+
 .contact-area textarea {
   max-width: 38.75rem;
-  min-width: 18rem;
+  min-width: 16rem;
   width: 38.75rem;
   max-height: 20rem;
   height: 12.5rem;
@@ -226,6 +263,19 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .contact-area textarea {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .contact-area textarea {
+    width: 16rem;
+    max-width: 16rem;
+  }
+}
+
 .contact-area button {
   width: 15.75rem;
   height: 3.625rem;
@@ -249,4 +299,27 @@
 
 .d-none {
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .view480 {
+    width: 320px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .view480 h3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .view480 p {
+    font-size: 18px;
+    width: 300px;
+  }
 }

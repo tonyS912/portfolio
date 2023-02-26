@@ -41,6 +41,14 @@
   }
 }
 
+@media screen and (max-width: 769px) {
+  .bg {
+    left: calc(50vw - 15rem);
+    width: 26rem;
+    top: 12rem;
+  }
+}
+
 .person {
   height: 40rem;
   transform: scaleX(-1);
@@ -53,9 +61,28 @@
   }
 }
 
+@media screen and (max-width: 769px) {
+  .person {
+    height: 30rem;
+    top: 2rem;
+  }
+}
+
 .name h1 {
   font-size: 90px;
   margin: 0;
+}
+
+@media screen and (max-width: 1919px) {
+  .name h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .name h1 {
+    font-size: 60px;
+  }
 }
 
 .job h3 {
@@ -65,6 +92,18 @@
   margin: 0;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1919px) {
+  .job h3 {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .job h3 {
+    font-size: 32px;
+  }
 }
 
 .main-btn {
@@ -109,6 +148,20 @@
     position: relative;
     top: 8.1rem;
     left: -20rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .amI {
+    transform: rotate(0);
+    left: 0;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .amI {
+    font-size: 50px;
   }
 }
 
@@ -197,6 +250,14 @@
   }
 }
 
+@media screen and (max-width: 769px) {
+  .info-links {
+    flex-direction: column;
+    position: relative;
+    z-index: 5;
+  }
+}
+
 .info-links img {
   width: 11.25rem;
   height: 4px;
@@ -222,6 +283,13 @@
 .social-media-home a img:hover {
   transform: scale(1.4);
   transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 769px) {
+  .social-media-home {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
 }
 
 .mail-home {
@@ -264,5 +332,11 @@
 @media screen and (max-width: 1439px) {
   .line {
     width: calc(100vw / 2 - 18rem);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .line {
+    display: none;
   }
 }

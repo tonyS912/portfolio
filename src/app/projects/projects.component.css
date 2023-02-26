@@ -18,6 +18,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 0;
+  }
+}
+
 .heading {
   display: flex;
   flex-direction: row;
@@ -40,9 +46,21 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .heading {
+    margin-top: 0;
+  }
+}
+
 .heading h2 {
-  font-size: 90px !important;
+  font-size: 90px;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .heading h2 {
+    font-size: 60px;
+  }
 }
 
 .heading .line {
@@ -73,6 +91,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .heading .line {
+    display: none;
+  }
+}
+
 .heading .line-small {
   width: 8rem;
   height: 4px;
@@ -91,6 +115,13 @@
 @media screen and (max-width: 992px) {
   .description {
     width: 30rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: 18px;
+    width: 300px;
   }
 }
 
@@ -123,6 +154,12 @@
   color: #fa7902;
 }
 
+@media screen and (max-width: 768px) {
+  .project1 span {
+    font-size: 18px;
+  }
+}
+
 .project1 p {
   width: 40rem;
   font-size: 1.5rem;
@@ -132,6 +169,13 @@
 @media screen and (max-width: 992px) {
   .project1 p {
     width: 30rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project1 p {
+    font-size: 18px;
+    width: 300px;
   }
 }
 
@@ -152,6 +196,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .project1 img {
+    width: 300px;
+  }
+}
+
 .project1 .btn-live {
   width: 10rem;
   height: 3.5rem;
@@ -169,6 +219,13 @@
 .project1 .btn-live:hover {
   background-color: #fa7902;
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .project1 .btn-live {
+    margin-right: 1rem;
+    width: 8rem;
+  }
 }
 
 .project1 .btn-git {
@@ -193,6 +250,13 @@
 @media screen and (max-width: 1439px) {
   .project1 .btn-git {
     margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project1 .btn-git {
+    margin-right: 0;
+    width: 8rem;
   }
 }
 
@@ -228,6 +292,12 @@
   justify-content: flex-end;
 }
 
+@media screen and (max-width: 768px) {
+  .project2 span {
+    font-size: 18px;
+  }
+}
+
 .project2 p {
   width: 40rem;
   font-size: 1.5rem;
@@ -239,6 +309,13 @@
   .project2 p {
     width: 30rem;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project2 p {
+    font-size: 18px;
+    width: 300px;
   }
 }
 
@@ -256,6 +333,12 @@
 @media screen and (max-width: 992px) {
   .project2 img {
     transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project2 img {
+    width: 300px;
   }
 }
 
@@ -283,6 +366,13 @@
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 768px) {
+  .project2 .btn-live {
+    margin-left: 1rem;
+    width: 8rem;
+  }
+}
+
 .project2 .btn-git {
   width: 10rem;
   height: 3.5rem;
@@ -308,6 +398,13 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .project2 .btn-git {
+    margin-left: 0;
+    width: 8rem;
+  }
+}
+
 .resp-box {
   display: flex;
   align-items: center;
@@ -326,6 +423,12 @@
   .resp-box {
     flex-direction: column;
     width: fit-content;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .resp-box {
+    width: 300px;
   }
 }
 

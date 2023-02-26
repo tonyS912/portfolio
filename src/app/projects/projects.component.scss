@@ -12,6 +12,10 @@
   @media screen and (max-width: 992px) {
     align-items: center;
   }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+  }
 }
 
 .heading {
@@ -31,9 +35,17 @@
     width: fit-content;
   }
 
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+  }
+
   h2 {
-    font-size: 90px !important;
+    font-size: 90px;
     margin: 0;
+
+    @media screen and (max-width: 768px) {
+      font-size: 60px;
+    }
   }
 
   .line {
@@ -56,6 +68,10 @@
     @media screen and (max-width: 992px) {
       top: 126rem;
     }
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
 
   .line-small {
@@ -75,6 +91,11 @@
 
   @media screen and (max-width: 992px) {
     width: 30rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+    width: 300px;
   }
 }
 
@@ -102,6 +123,10 @@
     font-size: 1.5rem;
     font-weight: 300;
     color: #fa7902;
+
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+    }
   }
 
   p {
@@ -111,6 +136,11 @@
 
     @media screen and (max-width: 992px) {
       width: 30rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+      width: 300px;
     }
   }
 
@@ -124,6 +154,10 @@
 
     @media screen and (max-width: 992px) {
       transform: scale(0.9);
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 300px;
     }
   }
 
@@ -143,6 +177,11 @@
     &:hover {
       background-color: #fa7902;
       transform: scale(1.1);
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-right: 1rem;
+      width: 8rem;
     }
   }
 
@@ -166,6 +205,11 @@
 
     @media screen and (max-width: 1439px) {
       margin-right: 1.5rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-right: 0;
+      width: 8rem;
     }
   }
 }
@@ -197,6 +241,10 @@
     color: #fa7902;
     display: flex;
     justify-content: flex-end;
+
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+    }
   }
 
   p {
@@ -208,6 +256,11 @@
     @media screen and (max-width: 992px) {
       width: 30rem;
       text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+      width: 300px;
     }
   }
 
@@ -221,6 +274,10 @@
 
     @media screen and (max-width: 992px) {
       transform: scale(0.9);
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 300px;
     }
   }
 
@@ -246,6 +303,11 @@
       background-color: #fa7902;
       transform: scale(1.1);
     }
+
+    @media screen and (max-width: 768px) {
+      margin-left: 1rem;
+      width: 8rem;
+    }
   }
 
   .btn-git {
@@ -269,6 +331,11 @@
     @media screen and (max-width: 1439px) {
       margin-left: -1rem;
     }
+
+    @media screen and (max-width: 768px) {
+      margin-left: 0;
+      width: 8rem;
+    }
   }
 }
 
@@ -286,6 +353,10 @@
   @media screen and (max-width: 1439px) {
     flex-direction: column;
     width: fit-content;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 300px;
   }
 }
 

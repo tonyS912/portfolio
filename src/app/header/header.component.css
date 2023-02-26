@@ -12,6 +12,12 @@ header {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0 2rem;
+  }
+}
+
 .headerForm {
   height: 6.25rem;
   width: 96.5rem;

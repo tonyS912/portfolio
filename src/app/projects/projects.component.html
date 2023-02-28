@@ -1,7 +1,7 @@
 <div class="container">
   <div class="heading">
     <div class="line"></div>
-    <h2>Projects</h2>
+    <h2 id="projects">Projects</h2>
   </div>
   <p class="description">
     This page is a sample of my work - please feel free to try them out.
@@ -17,13 +17,13 @@
           pokemon information.
         </p>
         <div class="btn">
-          <button class="btn-live">Live test</button>
-          <button class="btn-git">Github</button>
+          <button class="btn-live" (click)="jumpToProject('https://pokedex.tony-schiller.com/')">Live test</button>
+          <button class="btn-git" (click)="jumpToProject('https://github.com/tonyS912/Pokedex')">Github</button>
         </div>
       </div>
     </div>
     <div class="project2 resp-box">
-      <img src="assets/img/Pokedex.svg" />
+      <img src="assets/img/Join-prev.svg" />
       <div class="view1440">
         <h3>Join</h3>
         <span>HTML | CSS | JavaScript </span>
@@ -32,13 +32,13 @@
           using drag and drop functions, assign users and categories.
         </p>
         <div class="btn">
-          <button class="btn-live">Live test</button>
-          <button class="btn-git">Github</button>
+          <button class="btn-live" (click)="jumpToProject('https://join.tony-schiller.com/')">Live test</button>
+          <button class="btn-git" (click)="jumpToProject('https://pokedex.tony-schiller.com/')">Github</button>
         </div>
       </div>
     </div>
     <div class="project1 resp-box">
-      <img src="assets/img/Pokedex.svg" />
+      <img src="assets/img/sharky.png" />
       <div class="view1440">
         <h3>Sharky</h3>
         <span>HTML | CSS | JavaScript | OOP</span>
@@ -48,19 +48,19 @@
           whale.
         </p>
         <div class="btn">
-          <button class="btn-live">Live test</button>
-          <button class="btn-git">Github</button>
+          <button class="btn-live" (click)="jumpToProject('https://sharky.tony-schiller.com/')">Live test</button>
+          <button class="btn-git" (click)="jumpToProject('https://github.com/tonyS912/sharky')">Github</button>
         </div>
       </div>
     </div>
     <div class="project2 resp-box">
-      <img src="assets/img/Pokedex.svg" />
+      <img src="assets/img/crm.png" />
       <div class="view1440">
         <h3>Simple CRM</h3>
-        <span>Angular | Firebase</span>
+        <span>Angular | Firebase</span>
         <p>
-          A very Simple Customer Relationship Management system working with
-          CRUD functionality.
+          A Simple Recruiter Customer Relationship Management system working with
+          Firebase functionality.
         </p>
         <div class="btn">
           <button class="btn-live">Live test</button>
@@ -69,7 +69,7 @@
       </div>
     </div>
     <div class="project1 resp-box">
-      <img src="assets/img/Pokedex.svg" />
+      <img src="assets/img/portfolio-project.png"/>
       <div class="view1440">
         <h3>Portfolio</h3>
         <span>Angular | TypeScript | SCSS</span>
@@ -78,8 +78,8 @@
           other projects, this project grew and was constantly improved.
         </p>
         <div class="btn">
-          <button class="btn-live">Live test</button>
-          <button class="btn-git">Github</button>
+          <button class="btn-live" >Live test</button>
+          <button class="btn-git" (click)="jumpToProject('https://pokedex.tony-schiller.com/')">Github</button>
         </div>
       </div>
     </div>

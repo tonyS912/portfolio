@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-body {
+html, body {
   font-family: 'Poppins', sans-serif;
   background-color: #141D2F;
   margin: 0;
@@ -11,19 +11,19 @@ body {
   scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar {
+html::-webkit-scrollbar, body::-webkit-scrollbar {
   width: 0.5rem;
 }
 
-body::-webkit-scrollbar-track {
+html::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
   background: transparent;
 }
 
-body::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
   background: #fa7902a7;
   border-radius: 10px;
 }
 
-body::-webkit-scrollbar-thumb:hover {
+html::-webkit-scrollbar-thumb:hover, body::-webkit-scrollbar-thumb:hover {
   background: #fa7902;
 }

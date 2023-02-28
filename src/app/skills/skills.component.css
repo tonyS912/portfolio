@@ -170,7 +170,7 @@
   }
 }
 
-.my-skills button {
+.my-skills a {
   margin-left: 5.75rem;
   width: 12rem;
   height: 3.5rem;
@@ -180,19 +180,20 @@
   color: white;
   font-size: 1.5rem;
   font-weight: 300;
-  text-align: center;
   text-decoration: none;
   cursor: pointer;
-  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.my-skills button:hover {
+.my-skills a:hover {
   background-color: #ff4747;
   transform: scale(1.1);
 }
 
 @media screen and (max-width: 1439px) {
-  .my-skills button {
+  .my-skills a {
     margin: 0;
   }
 }

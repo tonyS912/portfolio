@@ -28,7 +28,7 @@ export class ContactComponent {
 
       await fetch('https://tony-schiller.com/send_mail.php', {
         method: 'POST',
-        body: formData,
+        body: formData
       });
 
       this.contact.reset();

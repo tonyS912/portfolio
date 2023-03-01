@@ -26,7 +26,7 @@ export class ContactComponent {
       formData.append('email', this.contact.get('mail')?.value);
       formData.append('message', this.contact.get('message')?.value);
 
-      await fetch('http://tony-schiller.com/send_mail.php', {
+      await fetch('https://tony-schiller.com/send_mail.php', {
         method: 'POST',
         body: formData,
       });

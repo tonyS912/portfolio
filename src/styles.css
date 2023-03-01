@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 html, body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #141D2F;
   margin: 0;
   color: #FFFFFF;
@@ -10,20 +10,16 @@ html, body {
   min-height: 100vh;
   scroll-behavior: smooth;
 }
-
 html::-webkit-scrollbar, body::-webkit-scrollbar {
   width: 0.5rem;
 }
-
 html::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
   background: transparent;
 }
-
 html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
-  background: #fa7902a7;
+  background: rgba(250, 121, 2, 0.6549019608);
   border-radius: 10px;
 }
-
 html::-webkit-scrollbar-thumb:hover, body::-webkit-scrollbar-thumb:hover {
   background: #fa7902;
-}
+}/*# sourceMappingURL=styles.css.map */

@@ -7,13 +7,11 @@
   justify-content: space-between;
   margin: 0 auto;
 }
-
 @media screen and (max-width: 1919px) {
   .home {
     max-width: 80rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .home {
     text-align: center;
@@ -23,30 +21,26 @@
 .bg {
   position: absolute;
   top: 9rem;
-  left: calc(100vw / 2 - 65rem);
+  left: calc(50vw - 65rem);
   transform: scale(1.25);
 }
-
 @media screen and (max-width: 1919px) {
   .bg {
-    left: calc(100vw / 2 - 55rem);
+    left: calc(50vw - 55rem);
   }
 }
-
 @media screen and (max-width: 1439px) {
   .bg {
-    left: calc(100vw / 2 - 30rem);
+    left: calc(50vw - 30rem);
     width: 52rem;
   }
 }
-
 @media screen and (max-width: 992px) {
   .bg {
-    left: calc(100vw / 2 - 23rem);
+    left: calc(50vw - 23rem);
     width: 40rem;
   }
 }
-
 @media screen and (max-width: 769px) {
   .bg {
     left: calc(50vw - 15rem);
@@ -54,7 +48,6 @@
     top: 12rem;
   }
 }
-
 @media screen and (max-width: 479px) {
   .bg {
     overflow: hidden;
@@ -70,21 +63,18 @@
   height: 40rem;
   transform: scaleX(-1);
 }
-
 @media screen and (max-width: 1919px) {
   .person {
     position: relative;
     top: 5rem;
   }
 }
-
 @media screen and (max-width: 769px) {
   .person {
     height: 30rem;
     top: 2rem;
   }
 }
-
 @media screen and (max-width: 479px) {
   .person {
     height: 25rem;
@@ -95,13 +85,11 @@
   font-size: 90px;
   margin: 0;
 }
-
 @media screen and (max-width: 1919px) {
   .name h1 {
     font-size: 70px;
   }
 }
-
 @media screen and (max-width: 769px) {
   .name h1 {
     font-size: 60px;
@@ -116,13 +104,11 @@
   margin-top: 0.5rem;
   margin-bottom: 2rem;
 }
-
 @media screen and (max-width: 1919px) {
   .job h3 {
     font-size: 38px;
   }
 }
-
 @media screen and (max-width: 769px) {
   .job h3 {
     font-size: 32px;
@@ -142,7 +128,6 @@
   cursor: pointer;
   z-index: 2;
 }
-
 .main-btn:hover {
   background-color: #ff4747;
   transform: scale(1.1);
@@ -158,14 +143,12 @@
   padding-left: 5rem;
   z-index: 2;
 }
-
 @media screen and (max-width: 1919px) {
   .amI {
     padding-bottom: 9.25rem;
     font-size: 60px;
   }
 }
-
 @media screen and (max-width: 1439px) {
   .amI {
     padding: 0;
@@ -175,7 +158,6 @@
     font-size: 60px;
   }
 }
-
 @media screen and (max-width: 992px) {
   .amI {
     transform: rotate(0);
@@ -183,13 +165,11 @@
     top: 0;
   }
 }
-
 @media screen and (max-width: 769px) {
   .amI {
     font-size: 50px;
   }
 }
-
 @media screen and (max-height: 900px) {
   .amI {
     display: none;
@@ -203,7 +183,6 @@
 .first {
   justify-content: space-between;
 }
-
 @media screen and (max-width: 1439px) {
   .first {
     flex-direction: column;
@@ -226,7 +205,6 @@
   align-items: center;
   z-index: 2;
 }
-
 .description a {
   text-decoration: none;
   color: white;
@@ -238,7 +216,6 @@
   justify-content: center;
   display: flex;
 }
-
 @media screen and (max-width: 1439px) {
   .description {
     align-items: center;
@@ -247,38 +224,33 @@
 
 .wave {
   position: absolute;
-  top: calc(100vh / 2);
+  top: 50vh;
   left: 0;
   width: 100%;
 }
-
 @media screen and (max-width: 768px) {
   .wave {
     top: 45vh;
   }
 }
-
 @media (min-width: 2100px) {
   .wave {
     top: 34rem;
     transition: all 0.3s ease-in-out;
   }
 }
-
 @media (min-width: 2600px) {
   .wave {
     top: 32rem;
     transition: all 0.3s ease-in-out;
   }
 }
-
 @media (min-width: 2900px) {
   .wave {
     top: 30rem;
     transition: all 0.3s ease-in-out;
   }
 }
-
 @media (min-width: 3150px) {
   .wave {
     top: 27rem;
@@ -292,13 +264,11 @@
   display: flex;
   align-items: center;
 }
-
 @media screen and (max-width: 1439px) {
   .info-links {
     justify-content: center;
   }
 }
-
 @media screen and (max-width: 769px) {
   .info-links {
     flex-direction: column;
@@ -306,34 +276,30 @@
     z-index: 5;
   }
 }
-
 .info-links img {
   width: 11.25rem;
   height: 4px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .social-media-home {
   margin-left: -1rem;
   margin-right: 1rem;
 }
-
 .social-media-home a {
   margin-left: 1rem;
   margin-right: 1rem;
   cursor: pointer;
 }
-
 .social-media-home a img {
   width: 2.25rem;
   height: 2.25rem;
 }
-
 .social-media-home a img:hover {
   transform: scale(1.4);
   transition: all 0.3s ease-in-out;
 }
-
 @media screen and (max-width: 769px) {
   .social-media-home {
     margin: 0;
@@ -344,8 +310,9 @@
 .mail-home {
   font-size: 23px;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
-
 .mail-home::after {
   content: "";
   display: block;
@@ -353,39 +320,34 @@
   border-bottom: 3px solid #ff4747;
   transition: transform 0.3s ease-in-out;
 }
-
 .mail-home:hover::after {
   transform: scaleX(1);
 }
-
 .mail-home .fromleft:after {
   transform-origin: 0% 50%;
 }
 
 .line {
   height: 4px;
-  width: calc(100vw / 2 - 55rem);
+  width: calc(50vw - 55rem);
   background-color: #ff4747;
   position: absolute;
   top: calc(100vh - 3.6rem);
   left: 0;
   margin-right: 3rem;
 }
-
 @media screen and (max-width: 1919px) {
   .line {
-    width: calc(100vw / 2 - 44rem);
+    width: calc(50vw - 44rem);
   }
 }
-
 @media screen and (max-width: 1439px) {
   .line {
-    width: calc(100vw / 2 - 18rem);
+    width: calc(50vw - 18rem);
   }
 }
-
 @media screen and (max-width: 769px) {
   .line {
     display: none;
   }
-}
+}/*# sourceMappingURL=startscreen.component.css.map */

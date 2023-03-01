@@ -5,19 +5,16 @@
   height: 100%;
   margin-top: 118px;
 }
-
 @media screen and (max-width: 1439px) {
   .container {
     margin-top: 60px;
   }
 }
-
 @media screen and (max-width: 992px) {
   .container {
     align-items: center;
   }
 }
-
 @media screen and (max-width: 768px) {
   .container {
     margin-top: 0;
@@ -33,70 +30,60 @@
   width: 97.5rem;
   margin: 3.5rem auto;
 }
-
 @media screen and (max-width: 1919px) {
   .heading {
     width: 80rem;
   }
 }
-
 @media screen and (max-width: 1439px) {
   .heading {
+    width: -moz-fit-content;
     width: fit-content;
   }
 }
-
 @media screen and (max-width: 768px) {
   .heading {
     margin-top: 0;
   }
 }
-
 .heading h2 {
   font-size: 90px;
   margin: 0;
 }
-
 @media screen and (max-width: 768px) {
   .heading h2 {
     font-size: 60px;
   }
 }
-
 .heading .line {
   height: 4px;
-  width: calc(100vw / 2 - 17rem);
+  width: calc(50vw - 17rem);
   background-color: #ff4747;
   position: absolute;
   top: 91.25rem;
   left: 0;
   margin-right: 3rem;
 }
-
 @media screen and (max-width: 1919px) {
   .heading .line {
     top: 95rem;
   }
 }
-
 @media screen and (max-width: 1439px) {
   .heading .line {
     top: 117rem;
   }
 }
-
 @media screen and (max-width: 992px) {
   .heading .line {
     top: 126rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .heading .line {
     display: none;
   }
 }
-
 .heading .line-small {
   width: 8rem;
   height: 4px;
@@ -111,13 +98,11 @@
   margin-top: 0;
   margin-bottom: 5rem;
 }
-
 @media screen and (max-width: 992px) {
   .description {
     width: 30rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .description {
     font-size: 18px;
@@ -136,72 +121,60 @@
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-
 @media screen and (max-width: 1439px) {
   .project1 {
     height: 100%;
   }
 }
-
 .project1 h3 {
   font-size: 2rem;
   color: #ff4747;
 }
-
 .project1 span {
   font-size: 1.5rem;
   font-weight: 300;
   color: #fa7902;
 }
-
 @media screen and (max-width: 768px) {
   .project1 span {
     font-size: 18px;
   }
 }
-
 .project1 p {
   width: 40rem;
   font-size: 1.5rem;
   font-weight: 300;
 }
-
 @media screen and (max-width: 992px) {
   .project1 p {
     width: 30rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .project1 p {
     font-size: 18px;
     width: 300px;
   }
 }
-
 .project1 img {
   width: 640px;
   margin-left: 46px;
 }
-
 @media screen and (max-width: 1439px) {
   .project1 img {
     margin: 0;
   }
 }
-
 @media screen and (max-width: 992px) {
   .project1 img {
     transform: scale(0.9);
   }
 }
-
 @media screen and (max-width: 768px) {
   .project1 img {
     width: 300px;
   }
 }
-
 .project1 .btn-live {
   width: 10rem;
   height: 3.5rem;
@@ -215,19 +188,21 @@
   margin-right: 4rem;
   cursor: pointer;
 }
-
 .project1 .btn-live:hover {
   background-color: #fa7902;
   transform: scale(1.1);
 }
-
 @media screen and (max-width: 768px) {
   .project1 .btn-live {
     margin-right: 1rem;
     width: 8rem;
   }
 }
-
+.project1 .btn-live a {
+  text-decoration: none;
+  color: white;
+  padding: 12px 28px;
+}
 .project1 .btn-git {
   width: 10rem;
   height: 3.5rem;
@@ -241,18 +216,15 @@
   margin-right: 4rem;
   cursor: pointer;
 }
-
 .project1 .btn-git:hover {
   background-color: #fa7902;
   transform: scale(1.1);
 }
-
 @media screen and (max-width: 1439px) {
   .project1 .btn-git {
     margin-right: 1.5rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .project1 .btn-git {
     margin-right: 0;
@@ -271,19 +243,16 @@
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-
 @media screen and (max-width: 1439px) {
   .project2 {
     height: 100%;
   }
 }
-
 .project2 h3 {
   font-size: 2rem;
   color: #ff4747;
   text-align: end;
 }
-
 .project2 span {
   font-size: 1.5rem;
   font-weight: 300;
@@ -291,62 +260,52 @@
   display: flex;
   justify-content: flex-end;
 }
-
 @media screen and (max-width: 768px) {
   .project2 span {
     font-size: 18px;
   }
 }
-
 .project2 p {
   width: 40rem;
   font-size: 1.5rem;
   font-weight: 300;
   text-align: end;
 }
-
 @media screen and (max-width: 992px) {
   .project2 p {
     width: 30rem;
     text-align: center;
   }
 }
-
 @media screen and (max-width: 768px) {
   .project2 p {
     font-size: 18px;
     width: 300px;
   }
 }
-
 .project2 img {
   width: 640px;
   margin-right: 46px;
 }
-
 @media screen and (max-width: 1439px) {
   .project2 img {
     margin: 0;
   }
 }
-
 @media screen and (max-width: 992px) {
   .project2 img {
     transform: scale(0.9);
   }
 }
-
 @media screen and (max-width: 768px) {
   .project2 img {
     width: 300px;
   }
 }
-
 .project2 .btn {
   display: flex;
   flex-direction: row-reverse;
 }
-
 .project2 .btn-live {
   width: 10rem;
   height: 3.5rem;
@@ -360,19 +319,16 @@
   margin-left: 4rem;
   cursor: pointer;
 }
-
 .project2 .btn-live:hover {
   background-color: #fa7902;
   transform: scale(1.1);
 }
-
 @media screen and (max-width: 768px) {
   .project2 .btn-live {
     margin-left: 1rem;
     width: 8rem;
   }
 }
-
 .project2 .btn-git {
   width: 10rem;
   height: 3.5rem;
@@ -386,18 +342,15 @@
   margin-left: 4rem;
   cursor: pointer;
 }
-
 .project2 .btn-git:hover {
   background-color: #fa7902;
   transform: scale(1.1);
 }
-
 @media screen and (max-width: 1439px) {
   .project2 .btn-git {
     margin-left: -1rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .project2 .btn-git {
     margin-left: 0;
@@ -412,20 +365,18 @@
   margin: 0 auto;
   width: 101.5rem;
 }
-
 @media screen and (max-width: 1919px) {
   .resp-box {
     width: 84.5rem;
   }
 }
-
 @media screen and (max-width: 1439px) {
   .resp-box {
     flex-direction: column;
+    width: -moz-fit-content;
     width: fit-content;
   }
 }
-
 @media screen and (max-width: 768px) {
   .resp-box {
     width: 300px;
@@ -441,4 +392,4 @@
     margin-top: -6rem;
     text-align: center;
   }
-}
+}/*# sourceMappingURL=projects.component.css.map */

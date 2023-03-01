@@ -13,17 +13,16 @@
   width: 97.5rem;
   margin: 0 auto;
 }
-
 @media screen and (max-width: 1919px) {
   .container {
     width: 80rem;
   }
 }
-
 @media screen and (max-width: 1439px) {
   .container {
     flex-direction: column;
     align-items: center;
+    width: -moz-fit-content;
     width: fit-content;
   }
 }
@@ -32,20 +31,17 @@
   font-size: 90px;
   margin-bottom: 2rem;
 }
-
 @media screen and (max-width: 768px) {
   .about-me h2 {
     font-size: 60px;
   }
 }
-
 @media screen and (max-width: 1439px) {
   .about-me {
     display: flex;
     justify-content: center;
   }
 }
-
 @media screen and (max-width: 992px) {
   .about-me {
     position: relative;
@@ -59,26 +55,22 @@
   font-size: 1.5rem;
   font-weight: 300;
 }
-
 @media screen and (max-width: 1919px) {
   .about-me-text {
     width: 50rem;
   }
 }
-
 @media screen and (max-width: 992px) {
   .about-me-text {
     width: 480px;
   }
 }
-
 @media screen and (max-width: 992px) {
   .about-me-text {
     position: relative;
     z-index: 3;
   }
 }
-
 @media screen and (max-width: 768px) {
   .about-me-text {
     width: 300px;
@@ -93,13 +85,11 @@
   align-items: center;
   justify-content: flex-start;
 }
-
 .conviction img {
   margin-right: 1.7rem;
   width: 55px;
   height: 55px;
 }
-
 @media screen and (max-width: 768px) {
   .conviction img {
     margin-right: 2.6rem;
@@ -113,7 +103,6 @@
   align-items: center;
   justify-content: flex-start;
 }
-
 .souvenirs img {
   margin-right: 1rem;
   display: flex;
@@ -134,9 +123,8 @@
   align-items: center;
   justify-content: center;
 }
-
 @media screen and (max-width: 1439px) {
   .right-box {
     display: none;
   }
-}
+}/*# sourceMappingURL=about-me.component.css.map */

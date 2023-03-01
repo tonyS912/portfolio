@@ -14,17 +14,17 @@
       <p>Need a Frontend developer? <b>Contact me!</b></p>
     </div>
     <div class="contact-area">
-      <form>
+      <form (ngSubmit)="sendMail()" [formGroup]="contact">
         <div>
-          <input type="text" id="name" name="name" placeholder="Your name"/>
+          <input type="text" id="name" name="name" placeholder="Your name" formControlName="name">
           <span style="color: transparent">Your name is required!</span>
         </div>
         <div>
-          <input type="email" id="email" name="email" placeholder="Your email" />
+          <input type="email" id="email" name="email" placeholder="Your email"  formControlName="mail">
           <span style="color: transparent">Your email is required!</span>
         </div>
         <div>
-          <textarea id="message" name="message" placeholder="Your message"></textarea>
+          <textarea id="message" name="message" placeholder="Your message"  formControlName="message"></textarea>
           <span style="color: transparent">Your message is required!</span>
         </div>
         <div>

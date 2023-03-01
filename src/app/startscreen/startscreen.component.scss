@@ -291,6 +291,8 @@
 .mail-home {
   font-size: 23px;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 
   &::after {
     content: "";

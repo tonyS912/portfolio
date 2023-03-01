@@ -11,7 +11,6 @@ header {
   justify-content: center;
   margin: 0 auto;
 }
-
 @media screen and (max-width: 768px) {
   header {
     padding: 0 2rem;
@@ -25,17 +24,14 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
 .headerForm img {
   cursor: pointer;
 }
-
 @media screen and (max-width: 992px) {
   .headerForm img {
     transform: translateX(-45px);
   }
 }
-
 @media screen and (max-width: 1919px) {
   .headerForm {
     width: 80rem;
@@ -48,13 +44,11 @@ header {
   justify-content: space-aorund;
   flex-direction: row;
 }
-
 @media screen and (max-width: 992px) {
   .desktop-links {
     display: none;
   }
 }
-
 .desktop-links a {
   color: #fff;
   font-size: 1.5rem;
@@ -63,13 +57,11 @@ header {
   margin-left: 3rem;
   cursor: pointer;
 }
-
 @media screen and (max-width: 992px) {
   .desktop-links a {
     text-align: center;
   }
 }
-
 .desktop-links a::after {
   content: "";
   display: block;
@@ -77,15 +69,12 @@ header {
   border-bottom: 3px solid #ff4747;
   transition: transform 0.3s ease-in-out;
 }
-
 .desktop-links a:hover {
   color: #fa7902;
 }
-
 .desktop-links a:hover::after {
   transform: scaleX(1);
 }
-
 .desktop-links a .fromleft:after {
   transform-origin: 0% 50%;
 }
@@ -95,7 +84,6 @@ header {
   margin-top: 30px;
   cursor: pointer;
 }
-
 @media screen and (min-width: 992px) {
   .burger-menu {
     display: none;
@@ -114,14 +102,12 @@ header {
   background-color: #141d2f;
   padding-top: 2rem;
 }
-
 .mobile-menu .mobile-links {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
 }
-
 .mobile-menu .mobile-links a {
   color: #fff;
   font-size: 1.5rem;
@@ -131,14 +117,13 @@ header {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
 @media screen and (max-width: 992px) {
   .mobile-menu .mobile-links a {
     text-align: center;
+    width: -moz-fit-content;
     width: fit-content;
   }
 }
-
 .mobile-menu .mobile-links a::after {
   content: "";
   display: block;
@@ -146,15 +131,12 @@ header {
   border-bottom: 3px solid #ff4747;
   transition: transform 0.3s ease-in-out;
 }
-
 .mobile-menu .mobile-links a:hover {
   color: #fa7902;
 }
-
 .mobile-menu .mobile-links a:hover::after {
   transform: scaleX(1);
 }
-
 .mobile-menu .mobile-links a .fromleft:after {
   transform-origin: 0% 50%;
-}
+}/*# sourceMappingURL=header.component.css.map */

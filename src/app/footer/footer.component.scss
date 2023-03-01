@@ -60,6 +60,10 @@
         height: 2rem;
         margin-left: 1.5rem;
         cursor: pointer;
+
+        &:hover {
+          transform: scale(1.4);
+        }
       }
 
       @media screen and (max-width: 992px) {

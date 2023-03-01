@@ -6,7 +6,6 @@
   margin-top: 6rem;
   justify-content: space-between;
 }
-
 @media screen and (max-width: 768px) {
   .container {
     margin: 0;
@@ -22,7 +21,6 @@
   justify-content: space-between;
   height: 30rem;
 }
-
 .skills p {
   font-weight: 300;
 }
@@ -34,14 +32,12 @@
   height: 100%;
   margin-right: 8rem;
 }
-
 @media screen and (max-width: 1439px) {
   .line-items {
     margin-right: 4rem;
     margin-left: 4rem;
   }
 }
-
 @media screen and (max-width: 992px) {
   .line-items {
     margin-right: 1.5rem;
@@ -49,7 +45,6 @@
     height: 25rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .line-items {
     margin-right: 0.25rem;
@@ -65,14 +60,12 @@
   height: 18.6rem;
   margin-right: 8rem;
 }
-
 @media screen and (max-width: 1439px) {
   .line-item2 {
     margin-right: 4rem;
     margin-left: 4rem;
   }
 }
-
 @media screen and (max-width: 992px) {
   .line-item2 {
     margin-right: 1.5rem;
@@ -80,7 +73,6 @@
     height: 15.6rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .line-item2 {
     margin-right: 0.25rem;
@@ -103,20 +95,17 @@
   height: 100%;
   width: 42.5rem;
 }
-
 @media screen and (max-width: 1439px) {
   .right-box {
     margin-bottom: 6rem;
   }
 }
-
 @media screen and (max-width: 992px) {
   .right-box {
     width: 30rem;
     justify-content: center;
   }
 }
-
 @media screen and (max-width: 768px) {
   .right-box {
     width: 300px;
@@ -129,47 +118,40 @@
   align-items: center;
   height: 100%;
 }
-
 .my-skills h2 {
   font-size: 90px;
   margin-bottom: 2rem;
   width: 100%;
   text-align: end;
 }
-
 @media screen and (max-width: 1439px) {
   .my-skills h2 {
     text-align: center;
     margin-top: 0;
   }
 }
-
 @media screen and (max-width: 768px) {
   .my-skills h2 {
     font-size: 60px;
   }
 }
-
 .my-skills p {
   text-align: end;
   font-size: 1.5rem;
   margin-bottom: 3rem;
   font-weight: 300;
 }
-
 @media screen and (max-width: 1439px) {
   .my-skills p {
     text-align: center;
   }
 }
-
 @media screen and (max-width: 768px) {
   .my-skills p {
     font-size: 18px;
     width: 300px;
   }
 }
-
 .my-skills a {
   margin-left: 5.75rem;
   width: 12rem;
@@ -186,12 +168,10 @@
   justify-content: center;
   align-items: center;
 }
-
 .my-skills a:hover {
   background-color: #ff4747;
   transform: scale(1.1);
 }
-
 @media screen and (max-width: 1439px) {
   .my-skills a {
     margin: 0;
@@ -207,27 +187,23 @@
   right: 0;
   margin-left: 3rem;
 }
-
 @media screen and (max-width: 1919px) {
   .cut-line {
     width: calc((100% - 1400px) / 2);
     top: 60.5rem;
   }
 }
-
 @media screen and (max-width: 1439px) {
   .cut-line {
     width: calc((100% - 491px) / 2);
     top: 54rem;
   }
 }
-
 @media screen and (max-width: 992px) {
   .cut-line {
     top: 61rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .cut-line {
     display: none;
@@ -240,7 +216,6 @@
   top: 52rem;
   z-index: -1;
 }
-
 @media screen and (max-width: 768px) {
   .left-bg {
     width: 300px;
@@ -254,15 +229,13 @@
   margin: 0 auto;
   width: 97.5rem;
 }
-
 @media screen and (max-width: 1919px) {
   .resp-box {
     width: 80rem;
   }
 }
-
 @media screen and (max-width: 1439px) {
   .resp-box {
     flex-direction: column-reverse;
   }
-}
+}/*# sourceMappingURL=skills.component.css.map */

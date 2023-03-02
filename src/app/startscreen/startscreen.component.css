@@ -377,7 +377,7 @@
 
 .line {
   height: 4px;
-  width: calc(50vw - 55rem);
+  width: calc(50vw - 52rem);
   background-color: #ff4747;
   position: absolute;
   left: 0;

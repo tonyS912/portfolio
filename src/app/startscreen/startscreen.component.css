@@ -385,7 +385,7 @@
 }
 @media screen and (max-width: 1919px) {
   .line {
-    width: calc(50vw - 44rem);
+    width: calc(50vw - 38rem);
   }
 }
 @media screen and (max-width: 1439px) {

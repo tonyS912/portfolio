@@ -23,7 +23,7 @@ export class ContactComponent {
     if (this.contact.status === 'VALID') {
       const formData = new FormData();
       formData.append('name', this.contact.get('name')?.value);
-      formData.append('email', this.contact.get('mail')?.value);
+      formData.append('mail', this.contact.get('mail')?.value);
       formData.append('message', this.contact.get('message')?.value);
 
       await fetch('https://tony-schiller.com/send_mail.php', {

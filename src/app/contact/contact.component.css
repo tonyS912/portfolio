@@ -77,7 +77,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 769px) {
   .heading .line {
     display: none;
   }

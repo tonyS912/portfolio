@@ -73,14 +73,27 @@
 
 @media screen and (max-width: 992px) {
   .heading .line {
-    top: 428rem;
+    top: 416rem;
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 769px) {
   .heading .line {
     display: none;
   }
+}
+
+.hide-message {
+  font-size: 1.5rem;
+  display: none !important;
+  text-align: center;
+}
+
+.show-message {
+  font-size: 1.5rem;
+  display: block !important;
+  text-align: center;
+  color: #70E61C;
 }
 
 .btn-active {

@@ -8,6 +8,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class ContactComponent {
   contact: FormGroup;
+  hideMessage = true;
 
   constructor(private fb: FormBuilder) {
     this.contact = this.fb.group({
@@ -15,6 +16,10 @@ export class ContactComponent {
       mail: ['', [Validators.required, Validators.email]], // the same shit like in the html element
       message: ['', [Validators.required, Validators.minLength(10)]], // the same shit like in the html element
     });
+  }
+
+  userMessage() {
+    this.hideMessage = !this.hideMessage;
   }
 
   async sendMail() {
@@ -28,7 +33,7 @@ export class ContactComponent {
 
       await fetch('https://tony-schiller.com/send_mail.php', {
         method: 'POST',
-        body: formData
+        body: formData,
       });
 
       this.contact.reset();

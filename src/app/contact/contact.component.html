@@ -24,11 +24,12 @@
           <span style="color: transparent">Your email is required!</span>
         </div>
         <div>
-          <textarea id="message" name="message" placeholder="Your message"  formControlName="message"></textarea>
+          <textarea id="message" name="message" placeholder="Your message with min 10 Signs"  formControlName="message"></textarea>
           <span style="color: transparent">Your message is required!</span>
         </div>
         <div>
-          <button type="submit" [disabled]="!contact.valid" [ngClass]="{'btn-active' : this.contact.valid}" >Send Message :)</button>
+          <button (click)="userMessage()" type="submit" [disabled]="!contact.valid" [ngClass]="{'btn-active' : this.contact.valid}" >Send Message :)</button>
+          <div [ngClass]="{'hide-message': hideMessage, 'show-message': !hideMessage}" >Your message was sent</div>
         </div>
       </form>
     </div>

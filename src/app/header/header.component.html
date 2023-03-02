@@ -12,11 +12,11 @@
   <img (click)="showMediaMenu()" class="burger-menu" src="assets/img/burger-menu.png">
   <div class="mobile-menu" [ngClass]="{'showMediaMenu': !showMenu}">
     <nav class="mobile-links">
-      <a routerLink="/">Home</a>
-      <a href="#aboutMe">About me</a>
-      <a href="#skills" >Skills</a>
-      <a href="#projects" >Projects</a>
-      <a href="#contact" >Contact</a>
+      <a href="#home" (click)="showMediaMenu()">Home</a>
+      <a href="#aboutMe"(click)="showMediaMenu()">About me</a>
+      <a href="#skills" (click)="showMediaMenu()">Skills</a>
+      <a href="#projects" (click)="showMediaMenu()">Projects</a>
+      <a href="#contact" (click)="showMediaMenu()">Contact</a>
     </nav>
   </div>
 </header>

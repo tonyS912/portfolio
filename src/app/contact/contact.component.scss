@@ -10,7 +10,7 @@
   }
 }
 
-.heading {
+.heading {resize: vertical;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -202,6 +202,7 @@
     width: 38.75rem;
     max-height: 20rem;
     height: 12.5rem;
+    padding-top: 8px;
     margin-bottom: 0.25rem;
     border: 1px solid #ff4747;
     background-color: transparent;
@@ -212,6 +213,7 @@
     font-weight: 300;
     font-family: "Poppins", sans-serif;
     margin-top: 1rem;
+    resize: vertical;
 
     &::placeholder {
       color: lightgray;

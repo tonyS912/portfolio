@@ -23,7 +23,7 @@ export class ContactComponent {
   }
 
   async sendMail() {
-    console.log(this.contact);
+    //console.log(this.contact);
 
     if (this.contact.status === 'VALID') {
       const formData = new FormData();

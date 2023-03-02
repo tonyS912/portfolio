@@ -67,6 +67,15 @@
   }
 }
 
+.btn-active {
+  background-color: #ff4747 !important;
+
+  &:hover {
+    background-color: #ff4747;
+    transform: scale(1.1);
+  }
+}
+
 .content {
   display: flex;
   margin: 0 auto;
@@ -243,7 +252,7 @@
     width: 15.75rem;
     height: 3.625rem;
     border-radius: 10px;
-    background-color: #fa7902;
+    background-color: darkgray;
     border: unset;
     outline: unset;
     color: white;
@@ -253,11 +262,6 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     cursor: pointer;
-
-    &:hover {
-      background-color: #ff4747;
-      transform: scale(1.1);
-    }
   }
 }
 

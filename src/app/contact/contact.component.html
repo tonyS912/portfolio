@@ -28,7 +28,7 @@
           <span style="color: transparent">Your message is required!</span>
         </div>
         <div>
-          <button type="submit">Send Message :)</button>
+          <button type="submit" [disabled]="!contact.valid" [ngClass]="{'btn-active' : this.contact.valid}" >Send Message :)</button>
         </div>
       </form>
     </div>
